@@ -1,20 +1,22 @@
 # simplecaptcha
-a simple captcha for apiclub
 
-this simplecaptcha as well as SimpleCaptcha (http://simplecaptcha.sourceforge.net)
+A simple captcha repackaged for Jakarta
 
-In Maven:
+Based on original code (http://simplecaptcha.sourceforge.net)
+
+Maven dependency
+
 ```xml
  <dependency>
-   <groupId>cn.apiclub.tool</groupId>
+   <groupId>org.ligoj</groupId>
    <artifactId>simplecaptcha</artifactId>
-   <version>1.2.2</version>
+   <version>2.0.0</version>
  </dependency>
 ```
 
-How to use it ? For Example:
+Java usage
 
-```java
+``` java
  List<Color> colors = new ArrayList<Color>();
  colors.add(Color.GREEN);
  colors.add(Color.BLUE);
@@ -35,24 +37,18 @@ How to use it ? For Example:
  
 ```
 
-if you do not like using it from maven repository,you can just download it by click (https://raw.githubusercontent.com/tavenli/simplecaptcha/master/release/1.2.2/simplecaptcha-1.2.2.jar)
+Samples
 
-<br/>
-![001](https://raw.githubusercontent.com/tavenli/simplecaptcha/master/example/captcha1.png)
+![001](example/captcha1.png)
 
-<br/>
-![002](https://raw.githubusercontent.com/tavenli/simplecaptcha/master/example/captcha2.png)
+![002](example/captcha2.png)
 
-<br/>
-![003](https://raw.githubusercontent.com/tavenli/simplecaptcha/master/example/example_big.png)
+![003](example_big.png)
 
-<br/>
-![004](https://raw.githubusercontent.com/tavenli/simplecaptcha/master/example/example_chinese.png)
+![004](example/example_chinese.png)
 
-<br/>
-![005](https://raw.githubusercontent.com/tavenli/simplecaptcha/master/example/example_multi.png)
+![005](example/example_multi.png)
 
-<br/>
-![006](https://raw.githubusercontent.com/tavenli/simplecaptcha/master/example/example_outline_noisy.png)
+![006](example/example_outline_noisy.png)
 
 
